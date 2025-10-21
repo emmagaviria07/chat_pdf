@@ -26,7 +26,7 @@ Sube un documento, haz una pregunta, y deja que el modelo te dé una respuesta c
 
 
 try:
-    image = Image.open('Chat_pdf.png')
+    image = Image.open('6b6dd5a171abf33c000b1ddb83bb4fe2.jpg')
     st.image(image, width=350, caption="Análisis inteligente de documentos PDF")
 except Exception as e:
     st.warning(f"⚠️ No se pudo cargar la imagen: {e}")
